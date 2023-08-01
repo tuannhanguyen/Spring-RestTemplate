@@ -12,7 +12,7 @@ public class GetRealtimeWeatherByCodeAsJSONString {
         RestTemplate restTemplate = new RestTemplate();
 
         Map<String, String> params = new HashMap<>();
-        params.put("code", "HP");
+        params.put("code", "BK_TL");
 
         String response = restTemplate.getForObject(requestURI, String.class, params);
 
