@@ -18,11 +18,11 @@ public class UpdateRealtimeWeatherAsJSONString {
         RestTemplate restTemplate = new RestTemplate();
 
         String json = "{\r\n"
-                + "    \"temperature\": 12,\r\n"
-                + "    \"humidity\": 10,\r\n"
-                + "    \"precipation\": 20,\r\n"
-                + "    \"status\": \"Rainy\",\r\n"
-                + "    \"wind_speed\": 9\r\n"
+                + "    \"temperature\": 11,\r\n"
+                + "    \"humidity\": 11,\r\n"
+                + "    \"precipation\": 21,\r\n"
+                + "    \"status\": \"Sunny\",\r\n"
+                + "    \"wind_speed\": 8\r\n"
                 + "}";
 
         HttpHeaders headers = new HttpHeaders();
